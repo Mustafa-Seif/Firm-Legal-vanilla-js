@@ -139,12 +139,18 @@ const onloading = document.querySelector(".onloading")
 
 
 
-window.onload = function test () {
-    onloading.style.display ="none"
+window.onload = function  () {
   
 }
 
-setTimeout(test, 1000);
+
+
+setTimeout(on, 2000);
+
+function on(params) {
+    onloading.style.display ="none"
+    
+}
 
 
 
